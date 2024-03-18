@@ -478,6 +478,8 @@ img {
   position: absolute;
   top: 0;
   bottom: 0;
+  display: none;
+
 }
 
 /* The dots/bullets/indicators */
