@@ -578,7 +578,7 @@ button[class ^=navbar]:hover{
 
 
 /*Media Queries*/
-media(max-width: 400px){
+@media(max-width: 400px){
     .navbar-collapse{
         width: 250px;
     }
