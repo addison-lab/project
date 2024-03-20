@@ -13,7 +13,8 @@
     --poppins-font: 'Poppins', sans-serif;
     --transition: all 0.3s ease-in-out;
     --box-shadow: 0 0 15px 2px rgba(0,0,0,0.3)!important;
-    --linear-gradient: linear-gradient(90.17deg, #4ac7b3, 0.15%, #2debeb 99.87%)
+    --linear-gradient: linear-gradient(90.17deg, #4ac7b3, 0.15%, #2debeb 99.87%);
+    --l-gradient: linear-gradient(to left top, var(--fros-blue-color), var(--light-blue-color));
 }
 
 *{
@@ -49,7 +50,7 @@ a{
 }
 
 .bg-blue{
-    background: linear-gradient(to left top, var(--fros-blue-color), var(--light-blue-color));
+    background: var(--l-gradient);
 }
 
 .bg-white{
