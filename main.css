@@ -49,7 +49,7 @@ a{
 }
 
 .bg-blue{
-    background-color: var(--fros-blue-color);
+    background-color: linear-gradient(to left top, var(--fros-blue-color), var(--light-blue-color));
 }
 
 .bg-white{
