@@ -157,7 +157,7 @@ h1,h2,h3{
     height: 50px;
     padding: 3.2rem 0;
     z-index: 999;
-   padding-top: 6px;
+    padding-top: 6px;
 }
 .navbar .container{
     justify-content: space-between;
