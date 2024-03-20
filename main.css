@@ -578,6 +578,14 @@ button[class ^=navbar]:hover{
 
 
 /*Media Queries*/
+media(max-width: 400px){
+    .navbar-collapse{
+        width: 250px;
+    }
+    .icon h1{
+        margin-left: 50px;
+    }
+}
 @media(min-width: 450px){
     .navbar-collapse{
         width: 320px;
