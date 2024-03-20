@@ -83,7 +83,7 @@ h2{
     font-size: 30px;
     font-weight: 600;
     text-align: center;
-    color: var(--fros-blue-color);
+    color: var(--light-color);
     padding-bottom: 8px;
     border-bottom: 1px solid silver;
 }
