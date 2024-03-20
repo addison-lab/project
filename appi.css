@@ -99,9 +99,6 @@ h2{
     width: 50%;
     padding-bottom: 15px;
 }
-.input-box:nth-child(2n){
-    justify-content: end;
-}
 .input-box label{
     width: 95%;
     color: var(--light-blue-color);
