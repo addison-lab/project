@@ -583,7 +583,7 @@ button[class ^=navbar]:hover{
         width: 250px;
     }
     .icon h1{
-        margin-left: 50px;
+        margin-left: 60px;
     }
 }
 @media(min-width: 450px){
