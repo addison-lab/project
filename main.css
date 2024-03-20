@@ -514,7 +514,6 @@ button[class ^=navbar]:hover{
 }
 .footer-item .icon{
     width: 120px;
-    margin: auto;
 }
 .footer-item .text{
     padding: 3rem 0;
@@ -604,6 +603,9 @@ button[class ^=navbar]:hover{
     }
     .navbar-collapse{
         width: 250px;
+    }
+    .icon h1{
+        margin-left: 60px;
     }
 }
 
