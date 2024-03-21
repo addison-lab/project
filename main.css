@@ -761,6 +761,9 @@ button[class ^=navbar]:hover{
     .icon h1{
         margin-left: 0;
     }
+     .materials{
+        grid-template-columns: repeat(2,1fr);
+    }
 }
 
 @media(min-width: 992px){
