@@ -694,6 +694,9 @@ button[class ^=navbar]:hover{
      .department h1{
         margin-top: 20px;
     }
+    .material{
+        width: 320px;
+    }
 }
 @media(min-width: 450px){
     .navbar-collapse{
