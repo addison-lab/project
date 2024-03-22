@@ -945,8 +945,9 @@ a.nav-link:hover{
       grid-auto-columns: calc((100% / 2) - 9px);
     }
     .department h1{
-        font-size: 3.5rem;
+        font-size: 3rem;
         margin-top: 20px;
+        font-weight: 600;
     }
     .materials{
         grid-template-columns: repeat(1,1fr);
