@@ -194,6 +194,7 @@ button[class ^=navbar]:hover{
 /* navbar show class */
 .navbar-show{
     transform: translateX(0);
+    background-color: var(--light-color);
 }
 .navbar-hide-btn{
     position: absolute;
@@ -209,7 +210,7 @@ button[class ^=navbar]:hover{
     transition: var(--transition);
     display: inline-block;
 }
-a.nav-link{
+/* a.nav-link{
     color: #000;
     font-weight: 600;
 }
@@ -217,7 +218,7 @@ a.nav-link::after{
     background-color: var(--light-blue-color);
 }
 a.nav-link:hover{
-    color: var(--light-blue-color);
+    color: var(--light-blue-color); */
 }
 .nav-link:hover{
     opacity: 1;
