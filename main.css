@@ -158,6 +158,8 @@ h1,h2,h3{
     padding: 3.2rem 0;
     z-index: 999;
     padding-top: 6px;
+    background-color: var(--light-color);
+    box-shadow: var(--box-shadow);
 }
 .navbar .container{
     justify-content: space-between;
@@ -206,6 +208,16 @@ button[class ^=navbar]:hover{
     font-weight: 600;
     transition: var(--transition);
     display: inline-block;
+}
+a.nav-link{
+    color: #000;
+    font-weight: 600;
+}
+a.nav-link::after{
+    background-color: var(--light-blue-color);
+}
+a.nav-link:hover{
+    color: var(--light-blue-color);
 }
 .nav-link:hover{
     opacity: 1;
@@ -599,7 +611,6 @@ button[class ^=navbar]:hover{
     background-color: transparent;
     transform: translateY(-8px);
     border-color: var(--light-blue-color);
-    backdrop-filter: blur(10px);
 }
 
 
@@ -696,6 +707,7 @@ button[class ^=navbar]:hover{
     }
     .material{
         width: 320px;
+        pointer-events: none;
     }
 }
 @media(min-width: 450px){
@@ -846,7 +858,7 @@ button[class ^=navbar]:hover{
         margin-left: 3.5rem;
     }
     .nav-link{
-        color: var(--light-color);
+        color: var(--dark-color);
         opacity: 1;
         font-weight: 500;
         position: relative;
@@ -858,13 +870,13 @@ button[class ^=navbar]:hover{
         left: 0;
         height: 2px;
         width: 0;
-        background-color: var(--light-color);
+        background-color: var(--dark-color);
         opacity: 0;
         transition: var(--transition);
     }
     .nav-link:hover{
         transform: none;
-        color: var(--light-color);
+        color:var(--dark-color);
     }
     .nav-link:hover::after{
         opacity: 1;
@@ -928,6 +940,9 @@ button[class ^=navbar]:hover{
     .materials{
         grid-template-columns: repeat(1,1fr);
     }
+    .material{
+        pointer-events: none;
+    }
   }
   
   @media screen and (max-width: 600px) {
@@ -941,7 +956,7 @@ button[class ^=navbar]:hover{
   }
 
 /* transition and animation stopper */
-.resize-animation-stopper *{
+/* .resize-animation-stopper *{
     animation: none!important;
     transition: none!important;
-}
+} */
