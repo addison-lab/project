@@ -7,61 +7,32 @@
     <link rel="stylesheet" href="contact.css">
 </head>
 <body>
-
-    <section class="contact">
-        <h2>Your Remarks!</h2>
-
-        <form onsubmit="sendEmail(); reset(); return false">
-            <div class="input-box">
-                <div class="input-field field">
-                    <input type="text" placeholder="Full Name" id="name"
-                    class="item" autocomplete="off">
-                    <div class="error-txt">
-                        Full Name cant be blank
-                    </div>
+<div class="container">
+        <h1>GET IN TOUCH</h1>
+        <P>Have any questions or suggestions? Drop us a message</P>
+        <form>
+            <div class="row">
+                <div class="column">
+                    <label for="name">Name</label>
+                    <input type="text" placeholder="Your Full Name" id="name">
                 </div>
-                <div class="input-field field">
-                    <input type="text" placeholder="Email Address" id="email"
-                    class="item" autocomplete="off">
-                    <div class="error-txt email" >
-                        Email Address cant be blank
-                    </div>
+
+                <div class="column">
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="Your Email" id="email">
                 </div>
             </div>
 
-            <!-- <div class="input-box">
-                <div class="input-field field">
-                    <input type="text" placeholder="Phone Number" id="phone"
-                    class="item" autocomplete="off">
-                    <div class="error-txt">
-                        Phone Number cant be blank
-                    </div>
-                </div>
-                 <div class="input-field field">
-                    <input type="text" placeholder="Subject" id="subject"
-                    class="item" autocomplete="off">
-                    <div class="error-txt">
-                        Subject cant be blank
-                    </div>
-                </div> 
-            </div> -->
-
-            <div class="textarea-field field">
-                <textarea name="" id="message" cols="30" rows="10" placeholder=
-                "Your Suggestion" class="item" autocomplete="off"></textarea>
-                <div class="error-txt">
-                    Your Suggestion box cant be blank
+            <div class="row">
+                <div class="column">
+                    <label for="issue">Describe your issue</label>
+                   <textarea id="issue" placeholder="Describe your issue in detail" rows="10" cols="10"></textarea>
                 </div>
             </div>
 
-            <button class="btn btn-white" type="submit">SUBMIT</button>
+            <button>Submit</button>
         </form>
-    </section>
+    </div>
     
-
-
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="contact.js"></script>
 </body>
 </html>
