@@ -73,12 +73,13 @@ body{
     font-size: 23px;
     margin-bottom: 15px;
     color: #333;
-    text-align: justify;
+    text-align: center;
 }
 .about-content p{
     font-size: 18px;
     line-height: 1.5;
     color: #666;
+    text-align: justify;
 }
 .about-content .go-back{
     display: inline-block;
