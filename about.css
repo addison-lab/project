@@ -31,7 +31,7 @@ body{
     height: 4px;
     display: block;
     margin: 0 auto;
-    background-color: #4caf50;
+    background-color: #0050d5;
 }
 .heading p{
     font-size: 18px;
@@ -60,7 +60,6 @@ body{
 .about-image img{
     max-width: 100%;
     height: auto;
-    display: block;
     transition: 0.5s ease;
 }
 .about-content{
@@ -84,7 +83,7 @@ body{
 .about-content .go-back{
     display: inline-block;
     padding: 10px 20px;
-    background-color: #4caf50;
+    background-color: #0050d5;
     color: #fff;
     font-size: 19px;
     text-decoration: none;
@@ -93,7 +92,7 @@ body{
     transition: 0.3s ease;
 }
 .about-content .go-back:hover{
-    background-color: #3e8e41;
+    background-color: #16c5ff;
 }
 
 @media(max-width: 768px){
